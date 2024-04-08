@@ -1,0 +1,14 @@
+class aluno:
+    def __init__(self, matrícula, nome, sexo, idade):
+        self.matrícula = matrícula
+        self.nome = nome
+        self.sexo = sexo
+        self.idade = idade
+
+if __name__ == "__main__":
+    aluno1 = aluno("00023022", "Samara", "F", "16")
+    print(aluno1.matrícula)
+    print(aluno1.nome)
+    print(aluno1.sexo)
+    print(aluno1.idade)
+    
